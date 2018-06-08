@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NavaGames</string>
+    <string name="strTitle">LOGIN NAVA GAMES</string>
+    <string name="strButtonLogin">INICIAR SESION</string>
 </resources>
