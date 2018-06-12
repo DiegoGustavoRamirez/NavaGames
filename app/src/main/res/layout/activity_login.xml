@@ -8,36 +8,63 @@
     tools:context="com.navarro.navagames.LoginActivity">
 
     <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="@string/strTitle"
-        android:textColor="@color/colorAccent"
-        android:textAlignment="center"
-        android:textSize="30dp"
         android:id="@+id/tvTitle"
-        />
-
-    <EditText
-        android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:id="@+id/etUser"
-        android:layout_marginTop="50dp"
-        />
-
-    <EditText
         android:layout_height="wrap_content"
+        android:text="@string/strTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvuser"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strUser"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:maxLength="20"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/strPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_orange_dark"
+
+        />
+
+    <EditText
         android:id="@+id/etPassword"
-        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:inputType="textPassword"
+        android:maxLines="1"
+
         />
 
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="@string/strButtonLogin"
         android:id="@+id/btnLogin"
-        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="50dp"
+        android:text="@string/strButtonLogin" />
+
 </LinearLayout>
