@@ -65,6 +65,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
+        android:onClick="login2"
         android:text="@string/strButtonLogin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"/>
 
 </LinearLayout>
