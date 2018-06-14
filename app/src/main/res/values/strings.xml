@@ -5,5 +5,5 @@
     <string name="strUser">Usuario</string>
     <string name="strPassword">Contraseña</string>
     <string name="btIniciarSesion">INICIAR SESION</string>
-
+    <string name="strRegister">Registrarse</string>
 </resources>
