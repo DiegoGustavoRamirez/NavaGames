@@ -9,8 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.navarro.navagames.Utils.NameString;
-
 public class LoginActivity extends AppCompatActivity {
 
 
@@ -46,13 +44,13 @@ public class LoginActivity extends AppCompatActivity {
         String sUserName = etUserName.getText().toString();
         String sUserPassword = etPassword.getText().toString();
 
-        if(sUserName.equals(NameString.sNameDummy) && sUserPassword.equals(NameString.sPasswordDummy)){ // success
+        if(sUserName.equals(getResources().getString(R.string.strNameDummy)) && sUserPassword.equals(getResources().getString(R.string.strPasswordDummy))){ // success
 
-            SharedPreferences spDataUser = getSharedPreferences(NameString.sSharedPreferencesName, 0); // parameters: name file, int = mode
+            SharedPreferences spDataUser = getSharedPreferences(getResources().getString(R.string.strSharedPreferences), 0); // parameters: name file, int = mode
             SharedPreferences.Editor speEditor = spDataUser.edit(); // allow modify my file
 
-            speEditor.putString(NameString.sNameUser, sUserName); // parameters: name variable, value
-            speEditor.putString(NameString.sPasswordUser, sUserPassword);
+            speEditor.putString(getResources().getString(R.string.strNameUser), sUserName); // parameters: name variable, value
+            speEditor.putString(getResources().getString(R.string.strPassword), sUserPassword);
 
             speEditor.commit(); // write in file
 
@@ -64,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
 
         }else{ // fail
 
-            Toast.makeText(getApplicationContext(), NameString.sWarningLoginMessage, Toast.LENGTH_SHORT).show(); // parameters: context, text, duration
+            Toast.makeText(getApplicationContext(), getResources().getString(R.string.strWarningLoginMessage), Toast.LENGTH_SHORT).show(); // parameters: context, text, duration
 
         }
 

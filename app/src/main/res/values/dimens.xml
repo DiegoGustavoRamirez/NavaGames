@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="dimenLandHeaderHeight">180dp</dimen>
+    <dimen name="dimenLandHeaderTextHeight">20dp</dimen>
+    <dimen name="dimenLandHeaderTextMargin">5dp</dimen>
+
+</resources>

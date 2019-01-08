@@ -6,7 +6,39 @@
     <string name="strPassword">Contraseña</string>
     <string name="btIniciarSesion">INICIAR SESION</string>
     <string name="strRegister">Registrarse</string>
+    <string name="strNothing">Nothing</string>
+    <string name="strDrawerMainOption">Principal</string>
+    <string name="strDrawerAccountOption">Mi cuenta</string>
+    <string name="strNavigationDrawerOpen">Open navigation drawer</string>
+    <string name="strNavigationDrawerClose">Close navigation drawer</string>
+
+    <!-- dummy data -->
+    <string name="strNameDummy">javi</string>
+    <string name="strPasswordDummy">1</string>
+
+    <!-- name shared preferences -->
+    <string name="strSharedPreferences">data_user</string>
+
+    <!-- variables name -->
+    <string name="strNameUser">name_user</string>
+    <string name="strPasswordUser">password_user</string>
+
+    <!-- toast messages -->
+    <string name="strWarningLoginMessage">Credenciales incorrectas</string>
+
+
+    <!-- list view drawer elements -->
+
+    <string-array name="drawer_list_options_array">
+        <item>Mi Perfil</item>
+        <item>Favoritos</item>
+        <item>Juegos</item>
+        <item>Destacados</item>
+    </string-array>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
