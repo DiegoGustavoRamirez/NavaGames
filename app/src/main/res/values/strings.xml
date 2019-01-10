@@ -13,15 +13,16 @@
     <string name="strNavigationDrawerClose">Close navigation drawer</string>
 
     <!-- dummy data -->
-    <string name="strNameDummy">javi</string>
-    <string name="strPasswordDummy">1</string>
+    <string name="str_name_dummy">javi</string>
+    <string name="str_password_dummy">1</string>
 
     <!-- name shared preferences -->
-    <string name="strSharedPreferences">data_user</string>
+    <string name="str_file_name">data_user</string>
 
     <!-- variables name -->
-    <string name="strNameUser">name_user</string>
+    <string name="str_name_user">name_user</string>
     <string name="strPasswordUser">password_user</string>
+    <string name="str_empty"></string>
 
     <!-- toast messages -->
     <string name="strWarningLoginMessage">Credenciales incorrectas</string>
